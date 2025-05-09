@@ -36,6 +36,7 @@
             // 
             // cmbSuperHeroes
             // 
+            this.cmbSuperHeroes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSuperHeroes.FormattingEnabled = true;
             this.cmbSuperHeroes.Location = new System.Drawing.Point(34, 44);
             this.cmbSuperHeroes.Name = "cmbSuperHeroes";
@@ -56,7 +57,8 @@
             // 
             this.pbxSuperHeroes.Location = new System.Drawing.Point(34, 114);
             this.pbxSuperHeroes.Name = "pbxSuperHeroes";
-            this.pbxSuperHeroes.Size = new System.Drawing.Size(437, 182);
+            this.pbxSuperHeroes.Size = new System.Drawing.Size(437, 275);
+            this.pbxSuperHeroes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxSuperHeroes.TabIndex = 2;
             this.pbxSuperHeroes.TabStop = false;
             // 
@@ -64,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 335);
+            this.ClientSize = new System.Drawing.Size(513, 419);
             this.Controls.Add(this.pbxSuperHeroes);
             this.Controls.Add(this.lblHeroes);
             this.Controls.Add(this.cmbSuperHeroes);

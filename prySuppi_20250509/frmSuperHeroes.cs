@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using prySuppi_20250509.Properties;
 
 namespace prySuppi_20250509
 {
@@ -20,15 +21,19 @@ namespace prySuppi_20250509
         private void cmbSuperHeroes_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            if(cmbSuperHeroes.Text == "Superman")
+            switch (cmbSuperHeroes.Text)
             {
-
-            } else if (cmbSuperHeroes.Text == "Batman")
-            {
-
-            } else if (cmbSuperHeroes.Text == "Wonder Woman")
-            {
-
+                case "Superman":
+                    pbxSuperHeroes.Image = Resources.Superman1;
+                    break;
+                case "Batman":
+                    pbxSuperHeroes.Image = Resources.batman;
+                    break;
+                case "Wonder Woman":
+                    pbxSuperHeroes.Image = Resources.wonderWoman;
+                    break;
+                default:
+                    break;
             }
 
       
