@@ -64,6 +64,8 @@ namespace prySuppi_20250509
             {
                 streamWriter.WriteLine("Fuerza: " + nudFuerza.Value.ToString() +
                                        " Destreza: " + nudDestreza.Value.ToString());
+
+                MessageBox.Show("Datos guardados correctamente")M
             }
 
         }
